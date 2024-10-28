@@ -1,0 +1,25 @@
+name: insta_assets_crop
+description: A flutter plugin to crop image in insta_assets_picker package. Fork of image_crop package.
+version: 0.1.0
+homepage: https://github.com/LeGoffMael/image_crop
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.legoffmael.imagecrop
+        pluginClass: ImageCropPlugin
+      ios:
+        pluginClass: ImageCropPlugin
