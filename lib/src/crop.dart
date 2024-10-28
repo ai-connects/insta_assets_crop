@@ -2,7 +2,7 @@ part of insta_assets_crop;
 
 const _kCropGridColumnCount = 3;
 const _kCropGridRowCount = 3;
-const _kCropGridColor = Color.fromRGBO(0xff, 0xff, 0xff, 0.7);
+const _kCropGridColor = Color.fromRGBO(0xff, 0xff, 0xff, 0.3);
 const _kCropOverlayActiveOpacity = 0.3;
 const _kCropOverlayInactiveOpacity = 0.7;
 const _kCropHandleColor = Color.fromRGBO(0xd0, 0xd0, 0xd0, 1.0);
